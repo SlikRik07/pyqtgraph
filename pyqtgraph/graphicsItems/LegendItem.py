@@ -75,7 +75,6 @@ class LegendItem(GraphicsWidgetAnchor, GraphicsWidget):
         self.setLayout(self.layout)
         self.items = []
         self.size = size
-        self.offset = offset
         self.frame = frame
         self.columnCount = colCount
         self.rowCount = 1
